@@ -24,6 +24,7 @@ def englishToFrench(englishText):
     ).get_result()['translations'][0]['translation']
     return frenchText
 
+
 def frenchToEnglish(frenchText):
     englishText = translator.translate(
         text=frenchText, 
